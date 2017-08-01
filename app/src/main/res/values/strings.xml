@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">RecyclerViewMaster</string>
+
+
+    <string-array name="namearray">
+        <item>Arya</item>
+        <item>Bran</item>
+        <item>Catlyn</item>
+        <item>Eddard(Ned)</item>
+        <item>Lyanna</item>
+        <item>Rickon</item>
+        <item>Robb</item>
+        <item>Sansa</item>
+    </string-array>
+
+
+    <string-array name="descarray">
+        <item>The younger of the Stark daughters, Arya has put her survival skills to use as she continues to evade the Lannister forces that seek her. En route to the Twins in search of her mother and brother, she arrived at the castle after the Red Wedding</item>
+        <item>Crippled after Jaime Lannister pushed him from a tower, Bran travels with his bannermen Jojen and Meera Reed to fulfill the visions that he and Jojen share. </item>
+        <item>The widow of Ned Stark, Cat has been trying to reunite her scattered family while respecting the wishes of her eldest son Robb, King in the North. </item>
+        <item>Lord of Winterfell and Warden of the North. The childhood friend of Robert Baratheon, Eddard (Ned) was a key player in Roberts rebellion, helping to win the throne from the Targaryens. He is married to Catelyn (Tully) Stark</item>
+        <item>Lyanna Stark was the younger sister of Eddard Stark. Her alleged kidnapping by Prince Rhaegar</item>
+        <item>Rickon, the youngest of the Stark children, is traveling north with Osha. His direwolf is named Shaggydog.</item>
+        <item>Lord of Winterfell and now King in the North, Robb plans to avenge his fathers death and bring his sisters home. His direwolf is named Grey Wind.</item>
+        <item>The oldest Stark daughter, Sansa has since realized that Kings Landing is not the fairy tale she assumed it would be.</item>
+    </string-array>
+
+</resources>
