@@ -26,41 +26,10 @@ public class MainActivity extends AppCompatActivity {
         //Call method to init recyclerview
         initAssignRecyclerView();
 
+        //Add data to dataset
         addDataToDataset();
 
     }
-
-    private void addDataToDataset() {
-
-        //INIT dataset
-        String[] nameArray =
-                getApplicationContext().getResources().getStringArray(R.array.namearray);
-        String[] descArray =
-                getApplicationContext().getResources().getStringArray(R.array.descarray);
-        int [] imageArray =
-                {
-                  R.drawable.arya,
-                  R.drawable.brandon,
-                  R.drawable.catlyn,
-                  R.drawable.eddard,
-                  R.drawable.lyanna,
-                  R.drawable.rickon,
-                  R.drawable.robb,
-                  R.drawable.sansa,
-                };
-
-        // Adding data
-        for (int i = 0 ; i < nameArray.length;i++)
-        {
-            Stark stark = new Stark(nameArray[i],descArray[i],imageArray[i]);
-            winterfell.add(stark);//Add stark to winterfell
-        }
-
-        //After adding data tell RecyclerViewAdapter to notify change in the dataset
-        starksAdapter.notifyDataSetChanged();
-
-    }
-
     private void initAssignRecyclerView() {
         //Initilize RecyclerView
         recyclerView = (RecyclerView)findViewById(R.id.recycler_view);
@@ -85,4 +54,36 @@ public class MainActivity extends AppCompatActivity {
         //set dataset
         recyclerView.setAdapter(starksAdapter);
     }
+
+    private void addDataToDataset() {
+
+        //INIT dataset
+        String[] nameArray =
+                getApplicationContext().getResources().getStringArray(R.array.namearray);
+        String[] descArray =
+                getApplicationContext().getResources().getStringArray(R.array.descarray);
+        int [] imageArray =
+                {
+                        R.drawable.arya,
+                        R.drawable.brandon,
+                        R.drawable.catlyn,
+                        R.drawable.eddard,
+                        R.drawable.lyanna,
+                        R.drawable.rickon,
+                        R.drawable.robb,
+                        R.drawable.sansa,
+                };
+
+        // Adding data
+        for (int i = 0 ; i < nameArray.length;i++)
+        {
+            Stark stark = new Stark(nameArray[i],descArray[i],imageArray[i]);
+            winterfell.add(stark);//Add stark to winterfell
+        }
+
+        //After adding data tell RecyclerViewAdapter to notify change in the dataset
+        starksAdapter.notifyDataSetChanged();
+
+    }
+
 }
