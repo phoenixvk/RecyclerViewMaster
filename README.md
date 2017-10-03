@@ -4,4 +4,5 @@ This RecyclerViewMaster consist android project explaining how RecyclerView work
 https://youtu.be/jYzYWbfNCIk?list=UUZwRTPUJuKuaxMam0xOY50Q
 
 <h1>ScreenShots</h1>
+<img src="/device-2017-08-02-150424.png"/>
 ![Alt text](/device-2017-08-02-150424.png?raw=true "Screenshot")
